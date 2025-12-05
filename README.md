@@ -31,7 +31,7 @@ Keep in mind, CoinGecko's data is expansive and fairly well managed but it is by
 ## Usage Description
 Data from 7 of CoinGecko's REST API endpoints is available. The flows to acquire this data can be accessed using command-line arguments or by simply running the program and answering prompts. Some flows will require a few inputs from the user on the data that they would like to pull, while others will only require user input on what they want to do with the data or what they want to look at next.
 
-Once the data is pulled and parsed, a sample of up to 20 rows of the data will be displayd to the user in tabulated form. Each flow allows the user to export the data returned by the API to a CSV in multiple formats, such as a summary file containing a summary of particular fields, a condensed file containing only select fields from the API output, or a complete file containing all fields from the API output.
+Once the data is pulled and parsed, a sample of up to 20 rows of the data will be displayed to the user in tabulated form. Each flow allows the user to export the data returned by the API to a CSV in multiple formats, such as a summary file containing a summary of particular fields, a condensed file containing only select fields from the API output, or a complete file containing all fields from the API output.
 
 At the end of each flow, the user can choose to perform these CSV exports, examine more data, or exit the program. They are not restricted to one of these options - the input for this part of the flow loops until the function is exited.
 
